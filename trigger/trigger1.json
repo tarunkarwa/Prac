@@ -16,7 +16,7 @@
 			"recurrence": {
 				"frequency": "Week",
 				"interval": 1,
-				"startTime": "2026-07-07T12:45:00",
+				"startTime": "2026-07-07T14:45:00",
 				"timeZone": "India Standard Time",
 				"schedule": {
 					"weekDays": [
