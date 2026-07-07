@@ -1,0 +1,25 @@
+{
+	"name": "trigger_user_data",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "ecom-user-data",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/landing-zone-1/blobs/user-raw-1",
+			"blobPathEndsWith": ".csv",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/714548bf-acd2-47a0-b027-7f4f7c09e4ca/resourceGroups/ecom-project/providers/Microsoft.Storage/storageAccounts/ecomadlstarun",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}

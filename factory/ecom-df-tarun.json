@@ -1,0 +1,15 @@
+{
+	"name": "ecom-df-tarun",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "680f6d72-ebce-4f00-96d3-a122ea36ce2e",
+		"tenantId": "9fbf5191-b3bf-4a5c-af2c-76fda4d44eb6"
+	}
+}

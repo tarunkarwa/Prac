@@ -1,0 +1,21 @@
+{
+	"name": "buyers_target_parquet",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "target_parquet_file",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "buyers-raw-2",
+				"fileSystem": "landing-zone-2"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
