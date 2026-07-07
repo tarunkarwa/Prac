@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "ecom-df-tarun"
+		},
+		"source_adls_raw_accountKey": {
+			"value": ""
+		},
+		"target_parquet_file_accountKey": {
+			"value": ""
+		},
+		"source_adls_raw_properties_typeProperties_url": {
+			"value": "https://ecomadlstarun.dfs.core.windows.net/"
+		},
+		"target_parquet_file_properties_typeProperties_url": {
+			"value": "https://ecomadlstarun.dfs.core.windows.net/"
+		},
+		"trigger_user_data_properties_typeProperties_scope": {
+			"value": "/subscriptions/714548bf-acd2-47a0-b027-7f4f7c09e4ca/resourceGroups/ecom-project/providers/Microsoft.Storage/storageAccounts/ecomadlstarun"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
