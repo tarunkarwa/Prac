@@ -8,7 +8,7 @@
 			"authentication": "MSI",
 			"workspaceResourceId": "/subscriptions/714548bf-acd2-47a0-b027-7f4f7c09e4ca/resourceGroups/ecom-project/providers/Microsoft.Databricks/workspaces/ecom-db-tarun",
 			"credential": {
-				"referenceName": "uamia_adf",
+				"referenceName": "credential1",
 				"type": "CredentialReference"
 			},
 			"existingClusterId": "0706-045354-i34qb5wb"
