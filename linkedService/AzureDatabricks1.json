@@ -10,8 +10,7 @@
 			"credential": {
 				"referenceName": "credential1",
 				"type": "CredentialReference"
-			},
-			"existingClusterId": "0706-045354-i34qb5wb"
+			}
 		}
 	}
 }
