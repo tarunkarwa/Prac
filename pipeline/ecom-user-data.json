@@ -80,7 +80,7 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
-					"notebookPath": "/Workspace/Users/tarun96.karwa@gmail.com/Bronze_layer"
+					"notebookPath": "/Shared/Bronze_layer"
 				},
 				"linkedServiceName": {
 					"referenceName": "AzureDatabricks1",
@@ -107,7 +107,7 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
-					"notebookPath": "/Workspace/Users/tarun96.karwa@gmail.com/Silver_layer"
+					"notebookPath": "/Shared/Silver_layer"
 				},
 				"linkedServiceName": {
 					"referenceName": "AzureDatabricks1",
@@ -134,7 +134,7 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
-					"notebookPath": "/Workspace/Users/tarun96.karwa@gmail.com/Gold_layer"
+					"notebookPath": "/Shared/Gold_layer"
 				},
 				"linkedServiceName": {
 					"referenceName": "AzureDatabricks1",
