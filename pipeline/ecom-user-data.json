@@ -61,7 +61,7 @@
 				]
 			},
 			{
-				"name": "Notebook1",
+				"name": "Notebook_Bronze",
 				"type": "DatabricksNotebook",
 				"dependsOn": [],
 				"policy": {
@@ -72,6 +72,9 @@
 					"secureInput": false
 				},
 				"userProperties": [],
+				"typeProperties": {
+					"notebookPath": "/Workspace/Users/tarun96.karwa@gmail.com/Bronze_layer"
+				},
 				"linkedServiceName": {
 					"referenceName": "AzureDatabricks1",
 					"type": "LinkedServiceReference"
